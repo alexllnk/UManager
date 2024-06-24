@@ -1,7 +1,7 @@
 
 
 ## User management app (create/edit with permissions via roles/rules)
-Laravel + Inertia + VueJS
+Laravel + Inertia + VueJS + TailwindCSS
 
 Key functionality:
 
