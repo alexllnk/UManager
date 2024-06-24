@@ -4,8 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73bb13e81ab84f98e67b2e1a9b23044e",
+    "content-hash": "df9b7d01454f71984bb27bd9186443c0",
     "packages": [
+        {
+            "name": "alkhatibdev/inertia-pagination",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alkhatibdev/inertia-pagination.git",
+                "reference": "cf65aea47d9c42e10d924270fa8fd9632ce746dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alkhatibdev/inertia-pagination/zipball/cf65aea47d9c42e10d924270fa8fd9632ce746dc",
+                "reference": "cf65aea47d9c42e10d924270fa8fd9632ce746dc",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AlkhatibDev\\InertiaPagination\\Providers\\InertiaPaginationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AlkhatibDev\\InertiaPagination\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alkhatib Hamad",
+                    "email": "me@alkhatib.dev",
+                    "homepage": "https://github.com/alkhatibdev",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Inertia Pagination, is a Laravel package for generating inertia pagination vue component, designed with TailwindCSS.",
+            "support": {
+                "issues": "https://github.com/alkhatibdev/inertia-pagination/issues",
+                "source": "https://github.com/alkhatibdev/inertia-pagination/tree/v0.0.1"
+            },
+            "time": "2023-11-30T22:41:02+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.12.1",
