@@ -7,6 +7,7 @@ Key functionality:
 
 - both guests and authenticated users can view the contents of users.index page (lists all users)
 - authorized users can create/edit users (based on their roles and established rules)
+- search for users (by name)
 
 
 ### Notes
